@@ -1,0 +1,28 @@
+.container {
+    margin: 0 auto;
+}
+  
+.head {
+    color: #fafafa;
+    font-weight: 700;
+    background-color: #2a2a2a;
+}
+  
+table {
+    width: 450px;
+    border-spacing: 0;
+}
+  
+th {
+    padding: 5px;
+    border: 1px solid black;
+    font-weight: 400;
+}
+  
+tr:nth-child(even) {
+    background-color: lightgrey;
+}
+  
+tr:nth-child(odd) {
+    background-color: #fafafa;
+}
